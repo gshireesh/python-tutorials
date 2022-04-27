@@ -23,7 +23,7 @@ https://www.python.org/
 Once the installation is complete, you should be able to run python interactively or run python files.
 
 
-### python interactive shell
+### 1. python interactive shell
 ```sh
 # open command line and enter 
 python3
@@ -37,7 +37,7 @@ print(1+2+3)
 # should print 5
 ```
 
-### python file
+### 2. python file
 create a file named `test.py` in any location and add the following content
 
 ```python
