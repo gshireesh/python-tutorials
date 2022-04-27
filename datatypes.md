@@ -76,8 +76,39 @@ print(a[1], a[2], a["name"])
 
 ```
 
+### set
+Its a list like datatype, but removes duplicates, .
+https://www.programiz.com/python-programming/set
+
+```python
+a = {1,1,10,4,6}
+print(a)
+# {1,10,4,6}
+# notice duplicate 1 is removed
+```
+
 ## for more data types and practice refer.
 https://www.w3schools.com/python/python_datatypes.asp
+
+
+
+### ranges
+used to generate range of number or iterator of it
+```python
+a = range(6) 
+# makes 0 as default start.
+# range(start,stop,step)
+
+list[range(4)]
+# [0,1,2,3]
+
+list[range(2,6)]
+# [2,3,4,5]
+
+list[range(4, 0, -1)]
+# [4,3,2,1]
+
+```
 
 ## practice
 
