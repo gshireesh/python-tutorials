@@ -38,6 +38,46 @@ example:
 
 ```
 
+### list
+Its a data type that can hold collection of multiple datatypes in the form of array.
+Its mutable
+```python
+
+a = [1,2,3]
+b = [1,"one",True, 1.4]
+
+b[0] = "11"
+
+print(b)
+# ["11","one",True, 1.4]
+```
+
+
+### tuple
+Its a data type that can hold collection of multiple datatypes in the form of array.
+Its immutable ie you cannot change the data in tuple like we do in list.
+```python
+
+a = (1,2,3)
+b = (1,"one",True, 1.4)
+
+b[0] = "11"
+# gives error, cannot change tuple
+```
+
+### dict
+Its a key value data type. you can store values for a key, ref example
+
+```python
+
+a = { 1: "one", 2: "two", 3: "three", "name": "master", "class" : "10th" }
+print(a[1], a[2], a["name"])
+# prints: one two master
+
+```
+
+## for more data types and practice refer.
+https://www.w3schools.com/python/python_datatypes.asp
 
 ## practice
 
@@ -48,7 +88,7 @@ python3
 ```
 to check type of a variable or value itself use type function type(val)
 
-```
+```python
 type(10) == int
 type(10.1) == float
 type(True) == type(False) == bool
